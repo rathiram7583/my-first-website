@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+MY Contact Page
+</title>
+</head>
+<body>
+<h1>CONTACT PAGE</h1>
+<form action ="submit.php" method="post">
+    <label for ="first-name"> First Name
+        <input type="text"name="first-name"
+        placeholder="Enter your first name...">
+    </label>
+    <br>
+    <label for ="last-name"> Last Name
+        <input type="text"name="last-name"
+        placeholder="Enter your last name...">
+    </label><br>
+    <label for ="your-email"> E-Mail Address
+        <input type="text"name="your-email"
+        placeholder="Enter your e-mail address...">
+    </label><br>
+    <label for ="subscribe"> SUBSCRIBE
+        <input type="checkbox"name="subscribe">
+        I'd like to receive e-mail newsletters and I have to read the 
+        <a href="#">TERMS OF SERVICE</a>
+       </label><br>
+    <label for="date-picker">PICK A DATE</label>
+    <input type="date" name="date-picker">
+    </label><br>
+    <label for="category">
+        Pick a category
+        <select name="category">
+            <option value="horror">HORROR</option>
+            <option value="documentary">DOCUMENTARY</option>
+            <option value="comedy">COMEDY</option>
+        </select>
+    </label><br>
+
+    <label for="time-of-day">
+    <input type="radio" name="time-of-day" value="morning">MORNING
+    </label><br>
+
+    <label for="time-of-day">
+        <input type="radio" name="time-of-day" value="afternoon">AFTERNOON
+        </label><br>
+        <label for="time-of-day">
+        <input type="radio" name="time-of-day" value="evening">EVENING
+        </label><br> 
+    <input type="submit" value="Submit Form">
+
+</form>
+</body>
+</html>
