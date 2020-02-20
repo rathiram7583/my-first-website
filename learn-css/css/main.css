@@ -1,0 +1,21 @@
+
+
+article{
+    width: auto;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:16px;
+}
+
+p{
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color:rgb(33,33,33);
+    background-color:lightcyan;
+}
+h1{
+    font-family: "Times New Roman",Georgia, serif;
+    text-align: center;
+}
